@@ -56,26 +56,9 @@ function createRock(x) {
     }if (top<GAME_Height){
       windows.requestAnimationFrame(moveRock)
     }return rock.remove()
-    
   }
     
-    // implement me!
-    // (use the comments below to guide you!)
-    /**
-     * If a rock collides with the DODGER,
-     * we should call endGame()
-     */
-
-    /**
-     * Otherwise, if the rock hasn't reached the bottom of
-     * the GAME, we want to move it again.
-     */
-
-    /**
-     * But if the rock *has* reached the bottom of the GAME,
-     * we should remove the rock from the DOM
-     */
-  }
+   windows.requestAnimationFrame(moveRock)
 
   // We should kick of the animation of the rock around here
 
@@ -85,7 +68,7 @@ function createRock(x) {
 
   // Finally, return the rock element you've created
   return rock
-}
+
 
 /**
  * End the game by clearing `gameInterval`,
