@@ -56,19 +56,11 @@ function createRock(x) {
     }if (top<GAME_Height){
       windows.requestAnimationFrame(moveRock)
     }return rock.remove()
-  }
     
-   windows.requestAnimationFrame(moveRock)
-
-  // We should kick of the animation of the rock around here
-
-  // Add the rock to ROCKS so that we can remove all rocks
-  // when there's a collision
+  windows.requestAnimationFrame(moveRock)
   ROCKS.push(rock)
-
-  // Finally, return the rock element you've created
   return rock
-
+}
 
 /**
  * End the game by clearing `gameInterval`,
