@@ -39,7 +39,7 @@ function createRock(x) {
   rock.className = 'rock'
   rock.style.left = `0px`
 
- let top = 0
+ var top = 0
 
   rock.style.top = top
 
