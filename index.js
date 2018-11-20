@@ -55,7 +55,7 @@ function createRock(x) {
       return endGame()
     }if (top<GAME_Height){
       windows.requestAnimationFrame(moveRock)
-    }return rock.remove
+    }return rock.remove()
     
   }
     
