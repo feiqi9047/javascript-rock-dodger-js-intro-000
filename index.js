@@ -77,7 +77,6 @@ function moveDodger(e) {
       moveDodgerRight
     }
   })
-  
 }
 
 function moveDodgerLeft() {
