@@ -51,6 +51,9 @@ function createRock(x) {
    */
   function moveRock() {
     rock.top.style = `${top +=2}px`
+    if (checkCollision(rock)){
+      
+    }
     
     // implement me!
     // (use the comments below to guide you!)
