@@ -27,7 +27,7 @@ function checkCollision(rock) {
     const rockLeftEdge = positionToInteger(rock.style.left)
     const rockRightEdge = rockRightEdge+20;
 
-    if (
+    if (rockLeftEdge<dodgerLeftEdge && rockRightEdge>dodgerLeftEdge
     return false} /**
                * Think about it -- what's happening here?
                * There's been a collision if one of three things is true:
