@@ -43,7 +43,7 @@ function createRock(x) {
 
   rock.style.top = top
 
- ${'#game'}.appendChild('rock')
+ GAME.appendChild(rock)
 
   /**
    * This function moves the rock. (2 pixels at a time
