@@ -71,7 +71,8 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
   ROCKS.forEach(function(rock){rock.remove()})
-  document.removeEvenListener('moveDodger')
+  document.removeEvenListener('keydown',moveDodger)
+  
 }
 
 function moveDodger(e) {
