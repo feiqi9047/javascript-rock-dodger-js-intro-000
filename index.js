@@ -53,7 +53,9 @@ function createRock(x) {
     rock.top.style = `${top +=2}px`
     if (checkCollision(rock)){
       return endGame()
-    }if ()
+    }if (top<GAME_Height){
+      
+    }
     
   }
     
