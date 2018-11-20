@@ -37,7 +37,7 @@ function createRock(x) {
   const rock = document.createElement('div')
 
   rock.className = 'rock'
-  rock.style.left = `${x}px`
+  rock.style.left = `0px`
 
   var top = 0
 
