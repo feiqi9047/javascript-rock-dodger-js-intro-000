@@ -82,7 +82,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
- var left = 0
+ constant left = positionToInteger()
  function moveLeft(){
    DODGER.style.left = `${left - 4}px`
    if (left<0){
