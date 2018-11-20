@@ -50,7 +50,7 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
-    
+    rock.top.style = ${
     
     // implement me!
     // (use the comments below to guide you!)
