@@ -70,6 +70,7 @@ function endGame() {
 }
 
 function moveDodger(e) {
+  
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
@@ -81,6 +82,13 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
+ var left = 0
+ function moveLeft(){
+   style.left = `${left - 4}px`
+   if (left<0){
+     window.requestAnimationFrame(moveLeft)
+   }
+ } window.requestAnimationFrame(moveLeft)
   // implement me!
   /**
    * This function should move DODGER to the left
