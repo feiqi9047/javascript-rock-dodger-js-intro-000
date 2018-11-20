@@ -45,13 +45,9 @@ function createRock(x) {
 
  GAME.appendChild(rock)
 
-  /**
-   * This function moves the rock. (2 pixels at a time
-   * seems like a good pace.)
-   */
   function moveRock() {
     rock.top.style = `${top +=2}px`
-    if (checkCollision(rock)){
+    if (checkCollision(rock)==='false'){
       return endGame()
     }if (top<GAME_Height){
       windows.requestAnimationFrame(moveRock)
