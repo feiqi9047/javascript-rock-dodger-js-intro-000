@@ -77,7 +77,7 @@ function moveDodgerLeft() {
       dodger.style.left = `${left - 4}px`
      window.requestAnimationFrame(moveDodgerLeft)
    }
- } window.requestAnimationFrame(moveDodgerLeft)
+ } 
 
 
 function moveDodgerRight() {
@@ -86,7 +86,7 @@ function moveDodgerRight() {
       dodger.style.left = `${left + 4}px`
      window.requestAnimationFrame(moveDodgerRight)
    }
- } window.requestAnimationFrame(moveDodgerRight)
+ } 
 
 
 
